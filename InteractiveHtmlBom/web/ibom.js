@@ -1127,6 +1127,15 @@ document.onkeydown = function (e) {
         e.preventDefault();
       }
       break;
+    case "0":
+	  if (document.activeElement.type == "text") {
+        return;
+      }
+      if (currentHighlightedRowId !== null) {
+        setHighlightPin1(!settings.highlightpin1);
+        e.preventDefault();
+      }
+      break;
     case "ArrowRight":
       if (document.activeElement.type == "text") {
         return;
