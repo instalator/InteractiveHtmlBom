@@ -3,9 +3,10 @@
 
 ![icon](https://i.imgur.com/js4kDOn.png)
 
-Добавлена возможность устанавливать и снимать чекбок 'Placed' с помощью стрелок на клавиатуре.
-Стрелка в право устанавливает чекбокс и переходит  на следующую строку. 
+Добавлена возможность устанавливать и снимать чекбокс 'Placed' с помощью стрелок на клавиатуре.
+Стрелка вправо устанавливает чекбокс и переходит на следующую строку. 
 Стрелка влево снимает чекбокс 'Placed'.
+
 
 This plugin generates convenient BOM listing with ability to visually correlate
 and easily search for components and their placements on the pcb.
